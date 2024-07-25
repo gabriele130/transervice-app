@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro",
+      "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+        }
+      }
+    }
+  },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "name": "transervice-app",
+    "slug": "transervice-app"
+  }
+}
